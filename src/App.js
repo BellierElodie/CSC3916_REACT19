@@ -16,6 +16,7 @@ function App() {
           <Route path="/movie/:movieId" element={<Movie />}/>
           <Route path="/signin" element={<Authentication />}/>
           {/*... other routes */}
+          <Route path="/signup" element={<Authentication />}/>
         </Routes>
       </HashRouter>
     </div>
